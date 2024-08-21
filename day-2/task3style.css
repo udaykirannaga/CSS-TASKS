@@ -1,0 +1,346 @@
+.php{
+    background-color: rgba(255, 192, 203, 0.915);
+    width: 40%;
+    height: 18vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   button{
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    width: 35%;
+    text-shadow: 2px 2px 2px wheat;
+   }
+
+   .query{
+    background-color: rgb(238, 238, 156);
+    width: 40%;
+    height: 18vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .java{
+    background-color: rgba(229, 218, 218, 0.873);
+    width: 40%;
+    height: 18vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+   }
+   .cplus{
+    background-color: rgb(110, 120, 111);
+    width: 40%;
+    height: 18vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+   }
+   .w3css{
+
+    background-color: rgb(155, 197, 155);
+    width: 40%;
+    height: 18vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+     
+   }
+
+   .frame{
+    background-color: white;
+    width: 40%;
+    height: 18vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+   .c{
+    background-color: rgba(255, 192, 203, 0.915) ;
+    width: 40%;
+    height: 6vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .c1{
+    background-color: rgb(238, 238, 156);
+    width: 40%;
+    height: 6vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .r{
+    background-color: white;
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .kotlin{
+    background-color: rgb(168, 34, 59);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+
+   .node{
+    background-color: rgb(165, 153, 232);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .react{
+    background-color: rgb(136, 213, 232);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+.json{
+    background-color: rgb(222, 113, 189);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+}
+
+.vue{
+    background-color: rgb(43, 30, 32);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+   .my{
+    background-color: rgb(146, 144, 156);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .xml{
+    background-color: rgb(27, 185, 138);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .sass{
+    background-color: rgb(177, 189, 15);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+}
+
+.icon{
+    background-color: rgba(229, 147, 15, 0.878);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .rwd{
+    background-color: rgb(52, 150, 215);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .graphics{
+    background-color: rgba(22, 178, 213, 0.878);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+   .colors{
+    background-color: rgb(27, 12, 160);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+
+   .git{
+    background-color: rgba(6, 184, 48, 0.878);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .numpy{
+    background-color: rgb(126, 125, 136);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }
+
+   .angular{
+    background-color: rgba(151, 218, 17, 0.878);
+    width: 10%;
+    height: 4vh;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 190px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+   }

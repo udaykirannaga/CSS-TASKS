@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        
+        .main-container {
+            height: 530px;
+            width: 300px;
+            border: 2px solid;
+            border-radius: 15px;
+            background-color: #111b21;
+            overflow: scroll;
+            scrollbar-width: none;
+            position: relative;
+
+        }
+
+        .header {
+            border-radius: 13px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+            padding-bottom: 10px;
+            background-color: #111b21;
+        }
+
+        footer {
+
+            height: 50px;
+            width: 300px;
+            position: fixed;
+            top: 490px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #111b21;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .profile {
+            border-radius: 50%;
+        }
+
+        .nav-left {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 5px;
+        }
+
+        .nav-right {
+            color: white;
+            margin-top: 25px;
+            margin-right: 6px
+        }
+
+        .qr {
+            color: white;
+            text-decoration: none;
+            margin: 6px;
+        }
+
+        input {
+            width: 290px;
+            height: 30px;
+            border-radius: 15px;
+            margin-top: 6px;
+        }
+
+        ::placeholder {
+            font-size: 17px;
+            padding-left: 10px;
+        }
+
+        .all {
+            text-decoration: none;
+            font-size: 17px;
+            color: white;
+            background-color: #4a4d4f;
+            border-radius: 8px;
+            padding: 4px;
+
+        }
+
+        .elements {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .persons {
+            margin-top: 8px;
+            display: flex;
+            margin-left: 5px;
+        }
+
+        .naveen {
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .a {
+            font-size: 18px;
+            font-weight: 530;
+        }
+
+        .b {
+            font-size: small;
+        }
+
+        .n {
+            margin-left: 10px;
+        }
+
+        .m-p {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+
+        .time {
+            margin-top: 5px;
+            margin-right: 5px;
+            font-size: small;
+        }
+
+        .chat {
+            color: white;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .chat-icon {
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        /* .chats {
+            color: white;
+            /* position: absolute; */
+        /* bottom: 5px; */
+        /* left: 10px;
+     } */
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="nav-left">
+                <p>WhatsApp</p>
+
+            </div>
+            <div class="nav-right">
+                <a href="#" class="qr"><i class="fa-solid fa-qrcode"></i></a>
+                <a href="#" class="qr"><i class="fa-solid fa-camera"></i></a>
+                <a href="#" class="qr"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            </div>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="search">
+        </div>
+        <div class="elements">
+            <a href="#" class="all">All</a>
+            <a href="#" class="all">Unread</a>
+            <a href="#" class="all">favorites</a>
+            <a href="#" class="all">Groups</a>
+
+        </div>
+        <a href="./what-chat.html">
+            <div class="m-p">
+                <div class="persons">
+                    <img src="https://as1.ftcdn.net/v2/jpg/03/59/82/92/1000_F_359829249_f30KL3kNeKT9P0Sx0ThT0QTOvh92ueMQ.jpg" width="45px" alt="" class="naveen a">
+                    <div class="n">
+                        <li type="none" class="a">SAROJA&#128519</li>
+                        <li type="none" class="b">Typing..</li>
+                    </div>
+                </div>
+                <div class="time">
+                    7:03 AM
+                </div>
+            </div>
+        </a>
+        <a href="./what-chat.html">
+        <div class="m-p">
+            <div class="persons">
+                <img src="./viketan-profile.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Viketan Frd</li>
+                    <li type="none" class="b">Hi ra..</li>
+                </div>
+            </div>
+            <div class="time">
+                6:03 PM
+            </div>
+        </div></a>
+        <a href="./what-chat.html">
+        <div class="m-p">
+            <div class="persons">
+                <img src="./mahesh-profile.jpg" alt="" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Konda mahesh Frd</li>
+                    <li type="none" class="b">ok ra</li>
+                </div>
+            </div>
+            <div class="time">
+                6:13 PM
+            </div>
+        </div></a>
+
+        <a href="./what-chat.html">
+        <div class="m-p">
+            <div class="persons">
+                <img src="./deekshith-profile.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Deekshith Frd</li>
+                    <li type="none" class="b">hello..</li>
+                </div>
+            </div>
+            <div class="time">
+                6:30 PM
+            </div>
+        </div></a>
+
+        <a href="./what-chat.html">
+        <div class="m-p">
+            <div class="persons">
+                <img src="./naveen.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Naveen Frd</li>
+                    <li type="none" class="b">Namasthey.</li>
+                </div>
+            </div>
+            <div class="time">
+                6:35 PM
+            </div>
+        </div></a>
+
+        <a href="./what-chat.html">
+        <div class="m-p">
+            <div class="persons">
+                <img src="./anil.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Anil Bava</li>
+                    <li type="none" class="b">ok ra</li>
+                </div>
+            </div>
+            <div class="time">
+                7:03 PM
+            </div>
+        </div></a>
+
+        <a href="./what-chat.html">
+        <div class="m-p">
+            <div class="persons">
+                <img src="./karthik.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a"> Karthik Frd</li>
+                    <li type="none" class="b">Ekkada ra</li>
+                </div>
+            </div>
+            <div class="time">
+                8:00 PM
+            </div>
+        </div></a>
+
+        <div class="m-p">
+            <div class="persons">
+                <img src="./vihan.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Vihaan</li>
+                    <li type="none" class="b">Bye ra Nani</li>
+                </div>
+            </div>
+            <div class="time">
+                9:00 PM
+            </div>
+        </div>
+        <div class="m-p">
+            <div class="persons">
+                <img src="./uday.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Uday Frd</li>
+                    <li type="none" class="b">Hello Vanakkam</li>
+                </div>
+            </div>
+            <div class="time">
+                7:03 PM
+            </div>
+        </div>
+
+        <div class="m-p">
+            <div class="persons">
+                <img src="./vihan.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Vihaan</li>
+                    <li type="none" class="b">Bye ra Nani</li>
+                </div>
+            </div>
+            <div class="time">
+                9:00 PM
+            </div>
+        </div>
+
+        <div class="m-p">
+            <div class="persons">
+                <img src="./vihan.jpg" alt="" height="40px" class="naveen a">
+                <div class="n">
+                    <li type="none" class="a">Vihaan</li>
+                    <li type="none" class="b">Bye ra Nani</li>
+                </div>
+            </div>
+            <div class="time">
+                9:00 PM
+            </div>
+        </div>
+        <footer>
+            <div class="chat">
+                <i class="fa-regular fa-comment chat-icon"></i><br>
+                <span class="chats-0">Chats</span>
+            </div>
+
+            <div class="chat">
+                <i class="fa-solid fa-square-poll-horizontal chat-icon"></i><br>
+                <span class="chats-1">Updates</span>
+            </div>
+
+            <div class="chat">
+                <i class="fa-solid fa-people-group chat-icon"></i><br>
+                <span class="chats-1">Communities</span>
+            </div>
+
+            <div class="chat">
+                <i class="fa-solid fa-phone chat-icon"></i><br>
+                <span class="chats-1">calls</span>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <Style>
+        .margin{
+            width: 700px;
+            padding: 50px;
+            background-color:red;
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            margin: 30px;
+        }
+        .border{
+            width: 600px;
+            padding: 50px;
+            background-color:blue;
+        }
+        .padding{
+            width: 500px;
+            padding: 50px;
+            background-color:green; 
+        }
+        .content{
+            width: 400px;
+            padding: 50px;
+            background-color:pink;
+            text-align: center;
+        }
+        .space{
+            width:950px;
+            height:650px;
+            font-size: 25px;
+            background-color:aqua;
+            padding: 50px;
+            
+        }
+    
+        #right{
+            position: absolute;
+            margin-left: 910px;
+            margin-top: 300px;
+        }
+        #bottom{
+            position: absolute;
+            margin-left: 450px;
+            margin-top: 570px;
+        }
+        #left{
+            position: absolute;
+            margin-right: 60px;
+            margin-top: 300px;
+        }
+
+    </Style>
+</head>
+<body>
+ <center><h1>BOX MODEL</h1>
+   
+<div class="space">
+    <p id="top">Top</p>
+    <p id="right">Right</p>
+    <p id="bottom">Bottom</p>
+    <p id="left">Left</p> 
+    <div class="margin">Margin
+        <div class="border">Border
+            <div class="padding">Padding
+                <div class="content">Content
+                </div>
+            </div>
+        </div>
+    </div>
+</body></center>
+</html>

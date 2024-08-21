@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+            background-color: white;
+        }
+        .elements{
+            margin-top: 18px;
+            margin-right: 10px;
+        }
+        .a{
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            letter-spacing: 4px;
+            padding: 10px;
+        }
+        .heading{
+            margin-left: 10px;
+            font-size: 18px;
+            letter-spacing: 4px;
+        }
+        .heading>p::before{
+            content: "BR";
+            font-weight: bold;
+        }
+        .main{
+            position: relative;
+        }
+        .img{
+            width: 100%;
+        }
+        /* .para{
+            display: inline;
+           position: absolute;
+           right: 600px;
+
+        } */
+        .para1{
+            font-size: 25px;
+            background-color: gray;
+            padding: 6px;
+            letter-spacing: 3px;
+        }
+        .para2{
+            font-size: 30px;
+            font-weight:800;
+            letter-spacing: 3px;
+            color: white;
+        }
+        .para{
+            position: absolute;
+            bottom: 350px;
+            left: 640px;
+        }
+        .project-boxes{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+            /* width: 100%; */
+            /* position: relative; */
+            margin-left: 20px;
+            row-gap: 18px;
+
+            /* gap: px; */
+        }
+        .image-name1{
+            position: absolute;
+            padding: 10px;
+            background-color: black;
+            color: #ffffff;
+            /* bottom: 145px; */
+            top: 0px;
+            margin: 0px;
+            text-align: center;
+        
+        }
+        /* .image-name2{
+            position: absolute;
+            padding: 10px;
+            background-color: black;
+            color: #ffffff;
+            bottom: 145px;
+            right: 0px;
+        } */
+        .images{
+            position: relative;
+        }
+        .box-shadow{
+            box-shadow: 5px 5px 8px #111;
+        }
+        .box-shadow:hover{
+            width: 360px;
+            height: 240px;
+        
+        }
+        .lorem1{
+            font-family: "Roboto", sans-serif;
+            word-spacing: 5px;
+        }
+        .profiles{
+            display: grid;
+            grid-template-areas: 'a a a a';
+            margin-left: 20px;
+            gap: 20px;
+            width: 98%;
+        }
+        .about{
+            margin-left: 20px;
+        }
+        h3,.ceo{
+            font-family: "Roboto";
+        }
+        .profiles > div{
+            box-shadow: 5px 5px 8px #111;
+        }
+        .dim{
+            opacity: 0.6;
+        }
+        input{
+            width: 100%;
+            height: 40px;
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            border-color: rgb(10, 10, 100);
+        }
+        .contact-info{
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+        .msg{
+            padding: 12px;
+            background-color: #111;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+        }
+        button:hover{
+            background-color: #b0abab;
+        }
+        .a:hover{
+            background-color: #b0abab;
+        }
+        .heading:hover{
+            background-color: #b0abab;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="heading">
+            <p>&nbsp;Architects</p>
+        </div>
+        <div class="elements">
+            <a href="#" class="a">Home</a>
+            <a href="#project" class="a">Projects</a>
+            <a href="#about" class="a">About</a>
+            <a href="#contact" class="a">Contact</a>
+        </div>
+    </nav>
+    <div class="main">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" class="img" alt="">
+       <p class="para"><span class="para1">BR</span><span class="para2">Architects</span></p>
+        <!-- <P class="para para2">Architects</P> -->
+    </div>
+
+    <div class="project-section">
+        <div class="project-name" style="margin-left: 20px; font-weight: 600;">
+            <p style="font-size: 24px; letter-spacing: 2px;" id="project">Projects</p>
+            <hr>
+        </div>
+        <div class="project-boxes">
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house5.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Summer House</p>
+            </div>
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Brick House</p>
+            </div>
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Renovated House</p>
+            </div>
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house4.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Barn House</p>
+            </div>
+            
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Brick House</p>
+            </div>
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Renovated House</p>
+            </div>
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house4.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Barn House</p>
+            </div>
+            <div class="images">
+                <img src="https://www.w3schools.com/w3images/house5.jpg" width="350" height="230px" class="box-shadow">
+                <p class="image-name1">Summer House</p>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <p style="font-size: 24px; letter-spacing: 2px; font-weight: 600;">About</p>
+            <hr>
+           <p class="lorem1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatem eaque quasi aspernatur aut earum quos ea similique libero aperiam, qui sapiente debitis, rerum nostrum at ipsum incidunt quibusdam cum.
+            Non necessitatibus repellat voluptatem fugiat, ipsum fugit iste at adipisci officia impedit. Nostrum molestias expedita maxime voluptas tempora molestiae laborum asperiores, excepturi odio fuga placeat quibusdam architecto dolorum, assumenda deserunt?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt voluptatem, sapiente quae, natus maiores minus optio suscipit placeat atque totam eum sint quas qui nisi, dolore perspiciatis ratione officia excepturi!</p>
+        </div>
+        <div class="profiles">
+            <div class="profile1">
+                <img src="https://www.w3schools.com/w3images/team2.jpg" height="230px" width="100%">
+                <h3>John Doe</h3>
+                <p class="ceo dim">CEO & Founder</p>
+                <p class="ceo" width="100%">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button style="width: 100%; height: 40px; opacity: 0.8; border: 0px;">Contact</button>
+            </div>
+            <div class="profile2">
+                <img src="https://www.w3schools.com/w3images/team1.jpg" height="230px" width="100%">
+                <h3>John Doe</h3>
+                <p class="ceo dim">Developer</p>
+                <p class="ceo" width="100%">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button style="width: 100%; height: 40px; opacity: 0.8; border: 0px;">Contact</button>
+            </div>
+            <div class="profile3">
+                <img src="https://www.w3schools.com/w3images/team3.jpg" height="230px" width="100%">
+                <h3>John Doe</h3>
+                <p class="ceo dim">Architect</p>
+                <p class="ceo" width="100%">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button style="width: 100%; height: 40px; opacity: 0.8; border: 0px;">Contact</button>
+            </div>
+            <div class="profile4">
+                <img src="https://www.w3schools.com/w3images/team4.jpg" height="230px" width="100%">
+                <h3>John Doe</h3>
+                <p class="ceo dim">Manager</p>
+                <p class="ceo" width="100%">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button style="width: 100%; height: 40px; opacity: 0.8; border: 0px;">Contact</button>
+            </div>
+        </div>
+        <div class="contact-info" id="contact">
+            <p style="font-size: 24px; letter-spacing: 2px; font-weight: 600;">Contact</p>
+            <hr>
+            <p class="ceo">Lets get in touch and talk about your next project.</p>
+            <input type="text" placeholder="&ensp;Name" ><br><br>
+            <input type="text" placeholder=" &ensp;Subject"><br><br>
+            <input type="text" placeholder=" &ensp;Email"><br><br>
+            <input type="text" placeholder=" &ensp;Comment"><br><br>
+            <button class="msg">Send Message</button>
+            <img src="https://www.w3schools.com/w3images/map.jpg" style="padding-top: 40px; width: 99%;">  
+        </div>
+        <p style="background-color: #111; color: white; padding: 25px; text-align: center; font-size: 17px;">powered by <span style="text-decoration: underline;">w3.css</span></p>
+       
+
+    </div>
+</body>
+</html>
