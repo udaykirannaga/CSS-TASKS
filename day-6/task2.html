@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: RGB(72, 73, 74);
+        }
+        .main-container{
+            background-color: rgb(35, 35, 36);
+            height: 70vh;
+            /* width: 80vw; */
+            padding: 2%;
+            margin-top: 6%;
+            margin-left: 14%;
+            margin-right: 18%;
+            /* width: 72%; */
+
+            
+        }
+        div{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: rgb(143, 84, 203);
+            gap:5px 5px;
+            color: white;
+            font-size: 2rem;
+            text-align:end;
+            
+            
+            
+        }
+        .item1{
+            grid-column: 1/4;
+            border-radius: 10px;
+            border: 5px solid black;
+           
+            
+            
+        }
+        .item2{
+            grid-row: 2/4;
+            background-color: aqua;
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+        .item3{
+            grid-column: 2/ 4;
+            background: linear-gradient(#ADD8E6, #0000FF);
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+        .item6{
+            grid-column: 1/4;
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+        .item4{
+            background: linear-gradient(#ADD8E6, #0000FF);
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+        .item5{
+            background: linear-gradient(#ADD8E6, #0000FF);
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+        .item1,.item2,.item3,.item4,.item5, .item6{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <div class="main-container">
+            <div class="item1">Header</div>
+            <div class="item2">Sidebar</div>
+            <div class="item3">content-1</div>
+            <div class="item4" >Content-2</div>
+            <div class="item5" >Content-3</div>
+            <div class="item6">Footer</div>
+        </div>
+    </center>
+</body>
+</html>
