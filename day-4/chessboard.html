@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESS BOARD</title>
+    <style>
+            table{
+            width: 80vh;
+            height: 80vh;
+            border: 3px solid;
+            border-collapse: collapse;
+            margin: 0 auto;
+            
+        }
+        caption{
+            font-size:50px;
+            font-weight: 900;
+        }
+         td{
+            border: 1px solid;
+            width: 50px;
+            height: 50px;
+        } 
+         tr{
+            border: 1px solid;
+        } 
+
+          tr:nth-child(odd) td:nth-child(even){
+            background-color: black;
+        } 
+         tr:nth-child(even) td:nth-child(odd){
+            background-color: black;
+        }
+        
+        tr:nth-child(odd) td:nth-child(even):hover{
+            background-color: green;
+        } 
+         tr:nth-child(even) td:nth-child(odd):hover{
+            background-color:green;
+        }
+        tr:nth-child(odd) td:nth-child(odd):hover{
+            background-color: yellow;
+        } 
+         tr:nth-child(even) td:nth-child(even):hover{
+            background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>CHESS BOARD</caption>
+        <tr class="container1" >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container2">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container3">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container4">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container5">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container6">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container7">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="container8">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>  
+</body>
+</html>
