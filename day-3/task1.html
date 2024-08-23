@@ -72,12 +72,8 @@
             display: grid;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: repeat(2,1fr);
-            /* width: 100%; */
-            /* position: relative; */
             margin-left: 20px;
             row-gap: 18px;
-
-            /* gap: px; */
         }
         .image-name1{
             position: absolute;
@@ -160,10 +156,21 @@
         .heading:hover{
             background-color: #b0abab;
         }
+        @media screen and (min-width:300px) and (max-width:600px) {
+            .project-boxes{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(8,1fr);
+            margin-left: 20px;
+            row-gap: 18px;
+          }
+        }
+        
 
     </style>
 </head>
 <body>
+    <div class="main-container">
     <nav class="navbar">
         <div class="heading">
             <p>&nbsp;Architects</p>
@@ -177,7 +184,7 @@
     </nav>
     <div class="main">
         <img src="https://www.w3schools.com/w3images/architect.jpg" class="img" alt="">
-       <p class="para"><span class="para1">BR</span><span class="para2">Architects</span></p>
+       <p class="para"><span class="para1">Br</span><span class="para2">Architects</span></p>
         <!-- <P class="para para2">Architects</P> -->
     </div>
 
@@ -273,5 +280,6 @@
        
 
     </div>
+</div>
 </body>
 </html>
