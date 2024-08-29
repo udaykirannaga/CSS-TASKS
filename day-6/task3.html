@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <style>
         .main-container{
             background-color: white;
             height: 70vh;
@@ -37,8 +37,9 @@
             
         }
         img:hover{
-            transform: scale(1.1,1.1);
-            transition: all 1s ease-in-out;
+            /* transform: scale(1.1,1.1); */
+            /* transition: all 1s ease-in-out; */
+            transform: scale(1.2);
         }
         .bg-main{
             background-color: #ffffff;
@@ -52,7 +53,10 @@
     </style>
 </head>
 <body>
+    
     <h1>My Food </h1>
+    <h1 class="animate__animated animate__bounce">An animated element</h1>
+
     <div class="main-container">
                 <div class="bg-main">
                     <div class="item1">
@@ -97,9 +101,11 @@
                 </div>
                 <div class="bg-main">
                     <div class="item1">
+                        <div class="over">
                         <img src="popsicle.jpg" alt="popsicle">
                         <h2>All I Need Is a Popsicle</h2>
                         <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
                     </div>
                 </div>
                 <div class="bg-main">
@@ -111,9 +117,11 @@
                 </div>
                 <div class="bg-main">
                     <div class="item1">
+                        <div class="over">
                         <img src="sandwich.jpg" alt="sandwich">
                         <h2>The Perfect Sandwich, A Real Classic</h2>
                         <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
                     </div>
                 </div>
                 <div class="bg-main">

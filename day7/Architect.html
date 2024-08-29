@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(203, 199, 199);
+            padding: 20px;
+
+        }
+        header{
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            z-index: 10;
+        }
+        .elements{
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            letter-spacing: 2px;
+            font-size: 17px;
+        }
+        .img-1{
+            width: 100%;
+            
+        }
+        .main{
+            position: relative;
+        }
+        .para{
+            position: absolute;
+            top: 100px;
+            left: 300px;
+        }
+        .p-heading{
+            letter-spacing: 2px;
+            margin-left: 2px;
+        }
+        .project-boxes-1{
+            display: flex;
+            gap: 12px;
+        }
+        .project-boxes-2{
+            display: flex;
+            gap: 12px;
+        }
+        @media screen and (min-width:300px) and (max-width:600px) {
+            .project-boxes-1{
+                display: flex;
+                flex-direction: column;
+
+            }
+            .project-boxes-2{
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+        }
+        @media screen and (min-width:601) and (max-width:767) {
+            .project-boxes-1{
+                display: grid;
+                grid-template-areas: auto auto ;
+            }
+            .project-boxes-2{
+                display: grid;
+                grid-template-areas: auto auto;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-left">
+                <a href="#" class="elements"><span style="font-size: 20px; background-color: rgb(105, 101, 101); padding: 6px; text-align: center;">BR </span>&ensp; Architects</a>
+            </div>
+            <div class="nav-right">
+                <a href="#"class="elements">Home</a>
+                <a href="#"class="elements">Projects</a>
+                <a href="#"class="elements">About</a>
+                <a href="#"class="elements">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" class="img-1" alt="">
+       <!-- <p class="para"><span class="para1">Br</span><span class="para2">Architects</span></p> -->
+    </div>
+    <div class="project-sec">
+        <h3 class="p-heading">projects</h3>
+        <hr>
+    </div>
+    <div class="project-boxes-1">
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        
+    </div>
+    <br>
+    <div class="project-boxes-2">
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="100%" class="box-shadow">
+            <!-- <p class="image-name1">Summer House</p> -->
+        </div>
+        
+    </div>
+</body>
+</html>

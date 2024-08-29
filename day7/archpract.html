@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            background-color: rgb(105,101,101);
+            font-size: 20px;
+            color: black;
+            padding: 6px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            margin: 2px;
+        }
+        .navbar{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            
+        }
+        header{
+            background-color: white;
+            position: sticky;
+        }
+        .img1{
+            width: 100%;
+        }
+        .main{
+            position: relative;
+        }
+        .child-main{
+            position: absolute;
+            top: 52%;
+            left: 40%;
+            /* right: 0;
+            bottom: 80%; */
+           color: white;
+           font-size: 40px;
+            
+
+        }
+        .para{
+            position: absolute;
+            top: 200px;
+            left: 800px;
+        }
+        .project-boxes-1{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 1%;
+           
+           
+        }
+        .images{
+            position: relative;
+        }
+        .child-image{
+            position: absolute;
+            /* bottom: 60%; */
+            top: 0;
+            left: 0;
+            background-color: black;
+            color: white;
+            width: 32%;
+            text-align: center;
+        }
+
+        .project-boxes-2{
+            display: flex;
+            margin-top: 2%;
+            gap: 1%;
+        }
+
+        @media only screen and (min-width:300px) and (max-width:600px){
+            .project-boxes-1{
+                /* display: grid; */
+                grid-template-columns: auto;
+            }
+            .project-boxes-2{
+                /* display: grid; */
+                grid-template-columns: auto;
+            }
+
+        }
+
+        @media only screen and (min-width:601px) and (max-width:767px){
+            .project-boxes-1{
+                /* display: grid; */
+                grid-template-columns: auto auto;
+            }
+            .project-boxes-2{
+                /* display: grid; */
+                grid-template-columns: auto auto;
+            }
+        }
+
+        @media only screen and (min-width:768px) and (max-width:991px){
+            .project-boxes-1{
+                /* display: grid; */
+                grid-template-columns: auto auto auto auto;
+            }
+            .project-boxes-2{
+                /* display: grid; */
+                grid-template-columns: auto auto auto auto;
+            }
+        }
+
+        @media only screen and (min-width:992px) and (max-width:1199px){
+            .project-boxes-1{
+                /* display: grid; */
+                grid-template-columns: auto auto auto auto;
+            }
+            .project-boxes-2{
+                /* display: grid; */
+                grid-template-columns: auto auto auto auto;
+            }
+        }
+
+        @media only screen and (width>1199px){
+            .project-boxes-1{
+                /* display: grid; */
+                grid-template-columns: auto auto auto auto;
+            }
+            .project-boxes-2{
+                /* display: grid; */
+                grid-template-columns: auto auto auto auto;
+            }
+        }
+
+
+
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+                <div class="nav-left">
+                    <a href="#" class="elements"><span>BR</span>&ensp;Architects</a>
+                </div>
+                <div class="nav-right">
+                    <a href="#"><button>Home</button></a>
+                    <a href="#"><button>Projects</button></a>
+                    <a href="#"><button>About</button></a>
+                    <a href="#"><button>Contact</button></a>
+                </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="child-main">BR Architecture</div>
+        <img src="https://www.w3schools.com/w3images/architect.jpg" class="img1" alt="">
+        <!-- <p class="para"><span class="para1">Br</span><span class="para2">Architecture</span></p> -->
+    </div><br>
+    <h2>Projects</h2>
+    <hr>
+    <div class="project-boxes-1">
+        <div class="images">
+            <div class="child-image"><p>Summer House</p></div>
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="100%" class="box" alt="">
+            <!-- <h2>Summer House</h2> -->
+            </div>
+            <div class="images">
+                <div class="child-image"><p>Brick House</p></div>
+                <img src="https://www.w3schools.com/w3images/house2.jpg" width="100%" class="box" alt="">
+            </div>
+            <div class="images">
+                <div class="child-image"><p>Renovated</p></div>
+                <img src="https://www.w3schools.com/w3images/house3.jpg" width="100%" class="box" alt="">
+            </div>
+            <div class="images">
+                <div class="child-image"><p>Barn House</p></div>
+                <img src="https://www.w3schools.com/w3images/house4.jpg" width="100%" class="box" alt="">
+            </div>
+        </div>
+    <div class="project-boxes-2">
+        <div class="images">
+            <div class="child-image"><p>Summer House</p></div>
+            <img src="https://www.w3schools.com/w3images/house2.jpg" width="100%" class="box" alt="">
+        </div>
+        <div class="images">
+            <div class="child-image"><p>Brick House</p></div>
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="100%" class="box-shadow" alt="">
+        </div>
+        <div class="images">
+            <div class="child-image"><p>Renovated</p></div>
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="100%" class="box-shadow" alt="">
+        </div>
+        <div class="images">
+            <div class="child-image"><p>Barn House</p></div>
+            <img src="https://www.w3schools.com/w3images/house3.jpg" width="100%" class="box-shadow" alt="">
+        </div>
+    </div>
+    <br>
+    <h2>About</h2><hr>
+
+</body>
+</html>
